@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #000;
+}
+h1, h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+.game {
+  width: 100%;
+  margin-top: 30px;
+}
+.game-main {
+  width: 100%;
+}
+.game-field {
+  width: 450px;
+  height: 450px;
+  border: 1px solid #000;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #82C082;
+}
+.game-field_cell {
+  width: 25%;
+  height: 25%;
+  border: 1px solid #000;
+  list-style-type: none;
+  text-align: center;
+}
+.goblin {
+  width: 80%;
+  margin-top: 10px;
+}
+.task {
+  width: 600px;
+  margin: 40px auto 20px;
+}
+.task-main {
+  width: 100%;
+  margin-top: 20px;
+}
+.task-tb {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  border: 1px dashed;
+  padding: 5px;
+}
+th {
+  border: 1px dashed;
+  background-color: #eee;
+  padding: 5px;
+  text-align: left;
+}
+.arrow {
+  margin-left: 3px;
+  color: green;
+  font-size: 16px;
+}
